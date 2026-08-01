@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="900" viewBox="0 0 1920 900" role="img" aria-label="Plan your Tanzania journey">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#D9A98A"/><stop offset="1" stop-color="#B9754F"/>
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+</linearGradient>
+</defs>
+<rect width="1920" height="900" fill="url(#sky)"/>
+<circle cx="1420" cy="306" r="99" fill="#F1CE9C" opacity="0.85"/>
+
+<path d="M0 540 Q576 468 1056 540 T1920 540 L1920 900 L0 900 Z" fill="#7A4E3A" opacity="0.85"/>
+<path d="M0 648 Q672 594 1344 648 T1920 648 L1920 900 L0 900 Z" fill="#5A3527"/>
+<rect x="0" y="594" width="1920" height="306" fill="#33221B"/>
+<g fill="#33221B" opacity="0.92"><rect x="304" y="414" width="6" height="180"/><path d="M115.19999999999999 423 Q307 324 499.2 423 Q307 383 115.19999999999999 423 Z"/></g>
+<rect width="1920" height="900" fill="url(#shade)"/>
+<g font-family="Georgia, serif" fill="#FFFFFF"><text x="960" y="810" text-anchor="middle" font-size="67" font-weight="600" style="paint-order:stroke;stroke:#000000;stroke-width:0.6px;stroke-opacity:0.25">Plan your Tanzania journey</text><text x="960" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#F3ECDD" opacity="0.9" letter-spacing="1.5">GANACHE SAFARIS  ·  REPLACE WITH REAL PHOTO</text></g>
+</svg>

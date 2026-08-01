@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Wildlife Safaris">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#E9C88A"/><stop offset="1" stop-color="#E7A96B"/>
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<circle cx="888" cy="272" r="88" fill="#F4D9A0" opacity="0.85"/>
+
+<path d="M0 480 Q360 416 660 480 T1200 480 L1200 800 L0 800 Z" fill="#8A6A44" opacity="0.85"/>
+<path d="M0 576 Q420 528 840 576 T1200 576 L1200 800 L0 800 Z" fill="#5E4B32"/>
+<rect x="0" y="528" width="1200" height="272" fill="#3C3122"/>
+<g fill="#3C3122" opacity="0.92"><rect x="189" y="368" width="6" height="160"/><path d="M72.0 376 Q192 288 312.0 376 Q192 340 72.0 376 Z"/></g>
+<rect width="1200" height="800" fill="url(#shade)"/>
+<g font-family="Georgia, serif" fill="#FFFFFF"><text x="600" y="720" text-anchor="middle" font-size="60" font-weight="600" style="paint-order:stroke;stroke:#000000;stroke-width:0.6px;stroke-opacity:0.25">Wildlife Safaris</text><text x="600" y="764" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#F3ECDD" opacity="0.9" letter-spacing="1.5">GANACHE SAFARIS  ·  REPLACE WITH REAL PHOTO</text></g>
+</svg>
