@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.ganachesafaris.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.ganachesafaris.com/about.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.ganachesafaris.com/safaris.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.ganachesafaris.com/destinations.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.ganachesafaris.com/experiences.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.ganachesafaris.com/accommodations.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.ganachesafaris.com/plan.html</loc><changefreq>yearly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.ganachesafaris.com/contact.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+</urlset>
