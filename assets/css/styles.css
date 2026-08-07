@@ -209,6 +209,8 @@ body.menu-open .nav-toggle span:nth-child(3) { transform: translateY(-6px) rotat
   .nav-toggle { display: block; }
   .primary-nav {
     position: fixed; inset: var(--header-h) 0 0 0;
+    height: calc(100vh - var(--header-h));
+    height: calc(100dvh - var(--header-h));
     flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 0;
     background: var(--forest-800);
     padding: 1.5rem clamp(1.2rem, 5vw, 2rem) 2.5rem;
