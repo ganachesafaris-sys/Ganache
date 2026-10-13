@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Guest Reviews | Ganache Safaris Tanzania</title>
+
+  <meta name="description" content="Read guest reviews and share your experience with Ganache Safaris. Tell us about your Tanzania safari, activity or journey and help future travellers plan with confidence.">
+
+  <link rel="canonical" href="https://ganachesafaris.org/reviews.html">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f7f3;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .review-form,
+    .testimonials {
+      background: white;
+      padding: 30px;
+      margin-top: 30px;
+      border-radius: 12px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #8c5a2b;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .testimonial {
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .stars {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .review-source-links {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .review-source-links a {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 18px;
+      border: 1px solid #8c5a2b;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #8c5a2b;
+    }
+
+    .consent {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-top: 18px;
+    }
+
+    .consent input {
+      width: auto;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+      <h1>Share Your Ganache Experience</h1>
+      <p>
+        We would love to hear about your safari, activity or journey with Ganache Safaris.
+        Your feedback helps us improve and helps future travellers plan with confidence.
+      </p>
+    </section>
+
+    <section class="review-form">
+      <h2>Leave a Review</h2>
+
+      <form action="https://formspree.io/f/myekdrjj" method="POST">
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country">
+
+        <label for="experience">Safari or Activity</label>
+        <input
+          type="text"
+          id="experience"
+          name="experience"
+          placeholder="e.g. Serengeti Safari, Quad Biking, Ngorongoro"
+          required
+        >
+
+        <label for="travel-date">Travel Date</label>
+        <input type="month" id="travel-date" name="travel_date">
+
+        <label for="rating">Rating</label>
+        <select id="rating" name="rating" required>
+          <option value="">Select rating</option>
+          <option value="5">★★★★★ Excellent</option>
+          <option value="4">★★★★☆ Very Good</option>
+          <option value="3">★★★☆☆ Good</option>
+          <option value="2">★★☆☆☆ Fair</option>
+          <option value="1">★☆☆☆☆ Poor</option>
+        </select>
+
+        <label for="review">Your Review</label>
+        <textarea
+          id="review"
+          name="review"
+          rows="7"
+          placeholder="Tell us about your experience..."
+          required
+        ></textarea>
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Used only if we need to contact you"
+        >
+
+        <div class="consent">
+          <input type="checkbox" id="permission" name="permission" required>
+          <label for="permission">
+            I give Ganache Safaris permission to publish my review on its website
+            and marketing channels.
+          </label>
+        </div>
+
+        <button type="submit">Submit Review</button>
+
+      </form>
+    </section>
+
+    <section class="testimonials">
+      <h2>What Our Guests Say</h2>
+
+      <article class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>
+          “Add an approved customer review here.”
+        </p>
+        <strong>Guest Name</strong><br>
+        <span>Country · Safari or Activity</span>
+      </article>
+
+      <article class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>
+          “Add another approved customer review here.”
+        </p>
+        <strong>Guest Name</strong><br>
+        <span>Country · Safari or Activity</span>
+      </article>
+    </section>
+
+    <section class="review-source-links">
+      <h2>Prefer to Review Us Elsewhere?</h2>
+
+      <a href="https://www.tripadvisor.com/Attraction_Review-g297913-d27956623-Reviews-Ganache_Safaris-Arusha_Arusha_Region.html" target="_blank" rel="noopener">
+  Review Ganache Safaris on TripAdvisor
+</a>
+
+      <a href="https://search.google.com/local/writereview?placeid=ChIJwbyvolIFNxgRP8LDtsk9aT4" target="_blank" rel="noopener">
+  Review Ganache Safaris on Google
+</a>
+    </section>
+
+  </div>
+
+</body>
+</html>
