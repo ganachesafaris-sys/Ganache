@@ -271,9 +271,12 @@ window.SITE_DATA = {
      { name: "First name, Country", trip: "Which trip", quote: "Their words" },
      ========================================================================== */
   testimonials: [
-    // Example (DELETE this line and add real reviews only):
-    // { name: "Sarah, United Kingdom", trip: "Classic Northern Circuit", quote: "..." },
-  ],
+  {
+    name: "Fredy Beatus Msaki, Tanzania",
+    trip: "Quad Bike Experience",
+    quote: "Amazing quad biking experience! The activity was exciting, safe and very well organised. The Ganache Safaris team was friendly and professional, and the scenery made the experience even better. I would highly recommend it to anyone looking for a fun adventure in Arusha."
+  },
+],
 
   /* ==========================================================================
      7. "THE GANACHE SAFARIS ADVANTAGE"  —  EDIT HERE
