@@ -49,6 +49,7 @@
     { key: "destinations", label: "Destinations", href: "destinations.html" },
     { key: "experiences", label: "Experiences", href: "experiences.html" },
     { key: "accommodations", label: "Accommodations", href: "accommodations.html" },
+     { key: "reviews", label: "Reviews", href: "reviews.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
   ];
 
