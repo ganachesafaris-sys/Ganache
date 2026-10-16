@@ -457,7 +457,7 @@ body.menu-open .nav-toggle span:nth-child(3) { transform: translateY(-6px) rotat
 
 /* --------------------------------------------------------- FLOAT WA ------ */
 .wa-float {
-  position: fixed; bottom: 22px; right: 22px; z-index: 90;
+  position: fixed; bottom: 110px; right: 22px; z-index: 90;
   width: 56px; height: 56px; border-radius: 50%; background: #1faf54; color: #fff;
   display: grid; place-items: center; box-shadow: 0 8px 24px rgba(31,175,84,0.45);
   transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
@@ -471,7 +471,7 @@ body.menu-open .nav-toggle span:nth-child(3) { transform: translateY(-6px) rotat
   opacity: 0; pointer-events: none; transition: opacity 0.25s var(--ease), transform 0.25s var(--ease);
 }
 .wa-float:hover .wa-float__label { opacity: 1; transform: translateY(-50%) translateX(-4px); }
-@media (max-width: 600px) { .wa-float { width: 52px; height: 52px; bottom: 16px; right: 16px; } .wa-float__label { display: none; } }
+@media (max-width: 600px) { .wa-float { width: 52px; height: 52px; bottom: 90px; right: 16px; } .wa-float__label { display: none; } }
 
 /* --------------------------------------------------------- FOOTER -------- */
 .site-footer { background: var(--forest-900); color: var(--sand-300); padding-top: clamp(3rem, 6vw, 4.5rem); }
