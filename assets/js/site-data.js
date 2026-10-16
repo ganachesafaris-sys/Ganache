@@ -276,7 +276,12 @@ window.SITE_DATA = {
     trip: "Quad Bike Experience",
     quote: "Amazing quad biking experience! The activity was exciting, safe and very well organised. The Ganache Safaris team was friendly and professional, and the scenery made the experience even better. I would highly recommend it to anyone looking for a fun adventure in Arusha."
   },
-],
+{
+  name: "Brittany, Kenya",
+  trip: "Quad Biking Experience",
+  quote: "The quad biking experience was fun and given the rough terrain having a guide really helped. The views of Mt Meru was definitely icing on the cake."
+},
+  ],
 
   /* ==========================================================================
      7. "THE GANACHE SAFARIS ADVANTAGE"  —  EDIT HERE
